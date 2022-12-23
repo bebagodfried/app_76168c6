@@ -3,6 +3,7 @@
 ### description of project ###
 
 # Challenge App Afrique - 7ème édition
+# Theme: le numérique au service Agriculture
 
 # Date
 Date d'ouverture 
@@ -17,11 +18,9 @@ Date de fermeture
 * Le projet doit être porté par une équipe composée autant d'hommes que de femmes
 * Facilité de prise en main pour les personnes reculées ou analphabètes par exemple (intégration d'une langue africaine)
 * Facilité de mise en œuvre du projet (développements techniques, investissements financiers, partenariats nécessaires (écoles, associations).
-* Potentiel de développement ante et post Challenge App Afrique 
-
+* Potentiel de développement ante et post Challenge App Afrique
 
 # ************************************************************************************** 
-
 
 # Les 7 axes de la feuille de route « Agriculture et numérique » 
 1. *Numérique et formation dans l’enseignement et le conseil agricole*
@@ -51,7 +50,6 @@ Cette catégorie d’adhérents est réservée aux entreprises ayant pour object
 * Niger
 * Senegal
 * Togo
-
 
 
 
