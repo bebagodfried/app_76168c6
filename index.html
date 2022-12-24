@@ -11,20 +11,61 @@
   <link rel="stylesheet" href="includes/elvys/dist/1.0.0/css/ui.min.css">
 
 </head>
-<body class="fit-screen">
-  <div id="loader" class="top-0 z-9 fit-container flex items-center justify-center">
+<body>
+  <div id="loader" class="bg-light fixed top-0 z-9 fit-container flex items-center justify-center">
     <span class="animate-pulse bg-cover size-256 rounded-full">
     </span>
   </div>
   <!-- :begin -->
-  <main>
-    <div class="bg-white solid-border vh-25 w-full">
-      <button></button>
+  <main class="bg-white bg-opacity-80 fit-screen">
+    <!--  -->
+    <div class="fw-500 fit-container flex flex-column justify-center items-center text-center">
+      <!-- welcome -->
+      <div id="welcome">
+        <p id="welcome_typed" class="animate-fade fs-1 m-0">Bienvenue!</p>
+      </div>
+
+      <!--  -->
+      <div id="slider_1" class="content hidden p-2">
+        <p id="typed" class="animate-fadeIn-bottom fs-1 m-0 mb-1">Achats et Ventes agricoles</p>
+        <p class="m-0 animate-fadeIn-bottom" hidden>Trouvez vos produits agricoles en vente directe,</p>
+        <p class="m-0 animate-fadeIn-bottom">Localisez facilement à côté de chez vous les producteurs du réseaux <b>plantation</b>, nos partenaires et leurs points de vente.</p>
+      </div>
+
+      <div id="slider_2" class="content hidden p-2">
+        <p id="typed" class="animate-fadeIn-bottom fs-1 m-0 mb-1">Prommotions agricoles</p>
+        <p class="m-0 animate-fadeIn-bottom">Agriculteurs ou non le réseaux <b>plantation</b> et ses partenaires vous simplifiras la vie.</p>
+      </div>
+
+      <div id="slider_3" class="content hidden p-2">
+        <p id="typed" class="animate-fadeIn-bottom fs-1 m-0 mb-1">Entre investir ou non</p>
+        <p class="m-0 animate-fadeIn-bottom">Nous vous proposns des producteurs pres a vous fournir des service de qualitées.</p>
+      </div>
+    </div>
+    <!--  -->
+    <div id="controls" class="absolute z-1 bottom-0 flex items-center justify-around px-1 py-2 w-full hidden animate-fade">
+      <ul class="inline-flex narrow-gap">
+        <li id="slide_1" class="fg-green">&bull;</li>
+        <li id="slide_2" class="">&bull;</li>
+        <li id="slide_3" class="">&bull;</li>
+      </ul>
+      <button id="next_slider" class="bg-light box-shadow fg-primary lh-2 rounded-full p-0"><i class="fa-solid fa-angle-right fs-5 size-48"></i></button>
+    </div>
+    <!--  -->
+    <div class="absolute z-1 bottom-0 bg-white box-shadow rounded vh-25 w-full py-1" hidden>
+      <div class="fit-container flex items-end justify-center">
+        <div class="inline-flex flex-column items-center g-1 w-full">
+          <button class="rounded-full">Cree un nouveau compte</button>
+          <button class="bg-none p-0">J'ai deja un compte</button>
+        </div>
+      </div>
     </div>
   </main>
-  <!-- :end...-->
+  <!-- :end... -->
   <script src="includes/elvys/attribution.js"></script>
   <script src="includes/elvys/dist/1.0.0/js/ui.min.js"></script>
+  <script src="includes/vendor/typed.js/typed.js"></script>
+  <script src="assets/typed.js/src/typing.js"></script>
   <script src="assets/application.js"></script>
 </body>
 </html>

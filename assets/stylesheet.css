@@ -1,6 +1,9 @@
 
 body {
-  background-color: light;
+  background-color: greenyellow;
+  background-image: url(../images/hand&plant.jpeg);
+  background-position: center;
+  background-size: cover;
 }
 
 body span {
